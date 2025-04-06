@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Company Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+    <img src="pic/logo3.png" alt="Marketing Image" class="hero-image">
+</a>
+<a href="index.html">
+    <img src="pic/font.png" alt="Marketing Image" class="hero-font">
+</a>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Clients</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <a href="https://www.instagram.com/effectique.advertising/" target="_blank">
+            <img src="pic/ig.png" alt="ig" class="ig-fixed" style="width: 120px; height: 60px;">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100088846129006&mibextid=ZbWKwL" target="_blank">
+            <img src="pic/fb.png" alt="fb" class="fb-fixed" style="width: 80px; height: 80px;">
+        </a>
+        <a href="https://wa.me/0182653288" target="_blank">
+            <img src="pic/whatsapp.png" alt="WhatsApp" class="whatsapp-fixed" style="width: 80px; height: 80px;">
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="sec1">
+        <h1>Welcome to Effectique Marketing</h1>
+        <p>We help businesses grow through effective marketing strategies</p><br>
+        <button onclick="location.href='about.html#about'">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Effectique Marketing Website</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>

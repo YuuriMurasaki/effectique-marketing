@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Effectique Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <a href="index.html">
+    <img src="pic/logo3.png" alt="Marketing Image" class="hero-image">
+</a>
+<a href="index.html">
+    <img src="pic/font.png" alt="Marketing Image" class="hero-font">
+</a>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Clients</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <a href="https://www.instagram.com/effectique.advertising/" target="_blank">
+            <img src="pic/ig.png" alt="ig" class="ig-fixed" style="width: 120px; height: 60px;">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100088846129006&mibextid=ZbWKwL" target="_blank">
+            <img src="pic/fb.png" alt="fb" class="fb-fixed" style="width: 80px; height: 80px;">
+        </a>
+        <a href="https://wa.me/0182653288" target="_blank">
+            <img src="pic/whatsapp.png" alt="WhatsApp" class="whatsapp-fixed" style="width: 80px; height: 80px;">
+        </a>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="sec3">
+        <h2>Our Services</h2>
+        <ul>
+            <li>
+                <i class="fas fa-chart-bar"></i>
+                <img src="pic/digitalmarketing.jpeg" alt="Marketing Image" class="portfolio1" width="180px" height="120px">
+                <h3>Digital Marketing</h3>
+                <p>We offer digital marketing services including SEO, PPC, and social media management.</p>
+            </li>
+            <li>
+                <i class="fas fa-pen-nib"></i>
+                <img src="pic/content.jpeg" alt="Marketing Image" class="portfolio1" width="180px" height="120px">
+                <h3>Content Creation</h3>
+                <p>We create high-quality content including blog posts, videos, and infographics.</p>
+            </li>
+            <li>
+                <i class="fas fa-camera"></i>
+                <img src="pic/production.jpeg" alt="Marketing Image" class="portfolio1" width="120px" height="120px">
+                <h3>Video Production</h3>
+                <p>We produce high-quality videos for social media, websites, and TV commercials.</p>
+            </li>
+            <li>
+                <i class="fas fa-camera"></i>
+                <img src="pic/advertisement.jpeg" alt="Marketing Image" class="portfolio1" width="120px" height="120px">
+                <h3>Advertisements</h3>
+                <p>Online advertisement (google ads, fb ads, and etc) and physical advertisement (OOH).</p>
+            </li>
+            <li>
+                <i class="fas fa-camera"></i>
+                <img src="pic/interior.jpeg" alt="Marketing Image" class="portfolio1" width="130px" height="120px">
+                <h3>Interior Design</h3>
+                <p>Our interior design services blend creativity with functionality to create personalized environments that reflect your unique style and meet your needs.</p>
+            </li>
+            <li>
+                <i class="fas fa-camera"></i>
+                <img src="pic/printing.jpeg" alt="Marketing Image" class="portfolio1" width="180px" height="120px">
+                <h3>Printing Services</h3>
+                <p>Printing services including bunting, banner, menu, signbaord, billboard.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Effectique Marketing Website</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
